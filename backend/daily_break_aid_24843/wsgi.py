@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'daily_break_aid_24843.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "daily_break_aid_24843.settings")
 
 application = get_wsgi_application()
